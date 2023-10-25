@@ -1,2 +1,6 @@
-type Person = { name: string; age?: number; } let user: Person = { name: 'Alice', }; user.age = '27';
+function concatenation(firstWord: string, secondWord: string) {
+    console.log(`${firstWord} ${secondWord}`);
+  }
+  
+  export { concatenation };
   
